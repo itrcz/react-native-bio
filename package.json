@@ -1,0 +1,35 @@
+{
+  "name": "react-native-bio",
+  "version": "1.0.0",
+  "description": "TouchID and FaceID for ReactNative",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itrcz/react-native-bio.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "bio-id",
+    "touch-id",
+    "face-id",
+    "react-component",
+    "react-native-component",
+    "authentication",
+    "auth",
+    "authenticate",
+    "mobile"
+  ],
+  "author": "Ilya Trikoz <jleed@me.com> (https://github.com/itrcz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jleed/react-native-bio/issues"
+  },
+  "homepage": "https://github.com/jleed/react-native-bio",
+  "devDependencies": {
+  }
+}
