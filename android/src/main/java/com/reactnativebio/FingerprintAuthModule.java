@@ -1,25 +1,18 @@
 package com.reactnativebio;
 
-import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReadableMap;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.app.KeyguardManager;
 import android.hardware.fingerprint.FingerprintManager;
-import android.Manifest;
-import android.content.pm.PackageManager;
-import android.support.v4.app.ActivityCompat;
 import android.security.keystore.KeyProperties;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
-import android.util.Log;
 
 import java.security.KeyStore;
 import java.security.NoSuchAlgorithmException;
